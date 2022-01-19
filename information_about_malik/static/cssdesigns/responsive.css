@@ -9,7 +9,6 @@
         /* flex-direction: column; */
     /* } */
     
-    
     .info_Main_Div{
         flex-wrap: wrap;
         font-size: 8px;
@@ -103,7 +102,7 @@
     }
     .malik_Experince_Divs{
         flex-direction: column;
-        font-size: 2em;
+        font-size: 1em;
     }
     .malik_Experince_Div{
         width: 80%;
@@ -119,7 +118,7 @@
         margin-top: 40px;
     }
      .about_Malik_Info{
-         font-size: 17px;
+         font-size: 10px;
      }
      .space{
          display: none;
