@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block tit %}Homepage {% endblock tit %}
+{% block bod %}
+
+<div class="info_Main_Div">
+    <div class="intro_Of_Malik ">
+        <H3 class='hi headings h3_Heading font_Align_423px'>Hi I am</H3>
+        <h2 class="name headings h2_Heading font_Align_423px">Abdul Malik Shakir </h2>
+        <h1 class=" work headings h1_Heading font_Align_423px">Full Stack Web Devoloper</h1>
+        <h1 class=" location headings h1_Heading font_Align_423px">Based In Peshawar Pakistan.</h1>
+        <P class="intro_Lines headings para">I am full Stack Web devoloper<span class="i_L_word">(backend and frontend)</span>.I can devolop any type
+            of website based on <span class="i_L_word">Python,Django</span> .
+            The Website will be fully <span class="i_L_word">responsive</span>.I can <span class="i_L_word">design</span> your website.Having skills in <span class="i_L_word">JS frontend</span>.For <span class="i_L_word">python assignment</span> also contact us. I can do <span class="i_L_word">Webscrapping</span>.
+            Having skills in data bases like <span class="i_L_word">postgresql and mysql</span> .Anytype of work regarding <span class="i_L_word">ms office,powerpoint,excell,ms visio</span> will be done with out no worry.</P>
+        <a href="#c_C_2_Id"><button class="btn"> Contact me</button></a>
+    </div>
+    <div class="malik_Pic ">
+        <img src="static/images/malik.jpg" id="malik_Pic_Img_Id">
+    </div>
+</div>
+<!-- contact starte here -->
+<div class="contact_Parent">
+    <div class="contact_Child_1 cP" id="contact_Child_1_Id">
+        <h4>Contact-----</h4>
+        <h2 class="c_C_1_H2_1">lets discuss</h2>
+        <h2 class="c_C_1_H2_2">your project</h2>
+        <p class="c_C_1_Para"><i class="fas fa-phone-square-alt"></i>03059590095</p>
+        <p class="c_C_1_Para"><i class="fas fa-phone-square-alt"></i>03176016071</p>
+        <p class="c_C_1_Para"><i class="fas fa-envelope"></i>abdulmalikshakir2001@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i>Faisal Colony Dalazak Road Peshawar,Pakistan</p>
+    </div>
+    <div class="contact_Child_2 cP" id="c_C_2_Id">
+        <p>I'm always open to discussing product</p>
+        <p>design work or partnership</p>
+        <form action="" method="POST" novalidate>
+            {% csrf_token %}
+
+            {% for field in C_M_Form %}
+            {{field.label_tag}}{{field}}<br>
+            {% endfor %}
+            <input type="submit" value="Submit" class="btn1">
+            </table>
+        </form>
+    </div>
+
+</div>
+<!-- contact end here -->
+
+
+{% endblock bod %}

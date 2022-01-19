@@ -1,0 +1,144 @@
+@media screen and (max-width:1151px) {
+    .info_Main_Div{
+             height: auto;
+             padding-bottom: 28px;
+    }
+}
+@media screen and (max-width:971px) {
+    /* .personal_Info_Main{ */
+        /* flex-direction: column; */
+    /* } */
+    
+    
+    .info_Main_Div{
+        flex-wrap: wrap;
+        font-size: 8px;
+    }
+    .malik_Pic{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .malik_Pic img{
+        width: 50%;
+    }
+    .intro_Lines{
+        font-size: 2.8em;
+    }
+}
+    .btn{
+        font-size: 2em;
+    }
+    .intro_Of_Malik{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px 10px 30px;
+
+    }
+
+@media screen and (max-width:423px) {
+
+    .font_Align_423px{
+        align-self: flex-start;
+        font-size: 2.5em;
+    }
+    .intro_Lines{
+        font-size: 1.9em;
+    }
+    .intro_Of_Malik{
+        padding: 10px 0 0 10px;
+    }
+    #malik_Pic_Img_Id{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .contact_Parent{
+        flex-direction: column;
+    }
+    .contact_Child_2{
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    .cP{
+        width: 100%;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:855px) {
+    .about_Para1{
+        width:90%;
+        
+    }
+    .about_Heading_Para_Divs{
+        width: 100%;
+    }
+}
+@media screen and (max-width:472px) and (min-width:423px) {
+    .location{
+        font-size: 3.5em;
+    }
+    
+}
+@media screen and (max-width:932px) {
+    .pic_Info_rows{
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    .malik3_Pic{
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    #about_Exp_btn_Res_1{
+        display: none;
+    }
+    .personal_Info_Heading2{
+        color: red;
+    }
+    .about_Heading_Para_Divs{
+        font-size: 1em;
+    }
+    .malik_Experince_Divs{
+        flex-direction: column;
+        font-size: 2em;
+    }
+    .malik_Experince_Div{
+        width: 80%;
+    margin: 0px 0px 40px 35px;
+    }
+    
+}
+@media screen and (max-width:630px) {
+    .personal_Info_Main{
+        flex-direction: column;
+    }
+    .malik_Experince_Main{
+        margin-top: 40px;
+    }
+     .about_Malik_Info{
+         font-size: 17px;
+     }
+     .space{
+         display: none;
+     }
+    .personal_Info{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:356px) {
+    .styling_Personal_Info1{
+        font-size: 1em;
+    }
+    .malik_Experince_Div{
+       margin-left: 15px;
+       width: 90%;
+          
+}
+.padding_Div{
+    margin: 0;
+}
+}
